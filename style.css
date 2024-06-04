@@ -101,6 +101,7 @@ margin: 15px 0;
 .social-media a:hover{
 background: #37a1f2;
 color: #f0f3fd;
+border: 2px solid #f0f3fd;
 }
 .btn{
     background: #37a1f2;
@@ -136,14 +137,15 @@ color: #f0f3fd;
     
 }
 #dark-container .logo,
-#dark-container .navbar a{
-    color: #f0f3fd;
+#dark-container .navbar a {
+    color: #37a1f2;
+    
 }
 #dark-container .navbar a:hover,
-#dark-container .navbar a:hover a.active{
-    color: #37a1f2;
-
+#dark-container .navbar a.active {
+    color: #ffffff;
 }
+
 #container,
 #dark-container{
     clip-path: circle(0% at 0 0);
